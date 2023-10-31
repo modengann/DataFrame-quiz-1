@@ -15,7 +15,7 @@ def get_experience_location(df):
 def get_department_elena_aiden(df):   
     pass
 
-def get_experience_salary_first_three(df):
+def get_experience_salary_third_to_end(df):
     pass
 
 def main():
@@ -26,7 +26,7 @@ def main():
     print("\nGrace's Info:\n", get_info_grace(df))
     print("\nExperience and Location Columns:\n", get_experience_location(df))
     print("\nDepartment of Elena and Aiden:\n", get_department_elena_aiden(df))
-    print("\nExperience and Monthly Salary of First Three:\n", get_experience_salary_first_three(df))
+    print("\nExperience and Monthly Salary of Third to End:\n", get_experience_salary_third_to_end(df))
 
 
 if __name__ == "__main__":
