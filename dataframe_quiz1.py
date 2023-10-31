@@ -12,7 +12,7 @@ def get_info_grace(df):
 def get_experience_location(df):
     pass
 
-def get_experience_salary_top_three(df):
+def get_experience_salary_first_three(df):
     pass
     
 def get_department_elena_aiden(df):   
@@ -25,7 +25,7 @@ def main():
     print("\nSecond Record:\n", get_second_record(df))
     print("\nGrace's Info:\n", get_info_grace(df))
     print("\nExperience and Location Columns:\n", get_experience_location(df))
-    print("\nExperience and Salary of Top Three:\n", get_experience_salary_top_three(df))
+    print("\nExperience and Monthly Salary of First Three:\n", get_experience_salary_first_three(df))
     print("\nDepartment of Elena and Aiden:\n", get_department_elena_aiden(df))
 
 
