@@ -19,7 +19,7 @@ class TestQuizMethods(unittest.TestCase):
         pd.testing.assert_series_equal(result, expected_output)
 
     def test_get_second_record(self):
-        expected_output = pd.Series(['Aiden', 3, 4500, 'Finance', 'London'], index=self.df.columns, name=1)
+        expected_output = pd.Series([3, 4500, 'Finance', 'London'], index=self.df.columns, name='Aiden')
         result = quiz_script.get_second_record(self.df)
         pd.testing.assert_series_equal(result, expected_output)
 
